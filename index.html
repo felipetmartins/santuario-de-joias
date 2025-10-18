@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/joia.png">
+    <title>Santuário das Jóias</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>SANTUÁRIO DAS JÓIAS</h1>
+        <p>Simule combinações de atributos mágicos, descubra as melhores opções e registre suas escolhas para futuras
+            referências.</p>
+
+        <div class="content-wrapper">
+            <div class="schools-bar" id="schoolsBar">
+                <button data-school="sangue">Sangue</button>
+                <button data-school="caos">Caos</button>
+                <button data-school="profana">Profana</button>
+                <button data-school="ilusao">Ilusão</button>
+                <button data-school="gelo">Gelo</button>
+                <button data-school="tempestade">Tempestade</button>
+            </div>
+
+            <div class="main-content">
+                <div class="spells-grid" id="spellsGrid"></div>
+
+                <div class="jewel-section" id="jewelSection">
+                    <div class="jewel-info">
+                        <div class="spell-name" id="spellName"></div>
+                        <img src="images/joia.png" alt="joia" id="jewelImage">
+                        <div class="selected-attributes">
+                            <h3>Selecionados:</h3>
+                            <ul id="selectedAttributes"></ul>
+                        </div>
+                    </div>
+                    <div class="attributes-list" id="attributesList"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="data.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
