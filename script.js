@@ -65,6 +65,7 @@ function showSpells(school) {
 
 function showAttributes(spell) {
   selectedSpell = spell;
+  selectedAttributes = [];
   attributesList.innerHTML = '';
 
   const allButtons = spellsGrid.querySelectorAll('button');
@@ -103,6 +104,7 @@ function showAttributes(spell) {
     label.appendChild(document.createTextNode(attr));
     attributesList.appendChild(label);
   });
+    updateSelectedAttributes();
 }
 
 function updateSelectedAttributes() {
