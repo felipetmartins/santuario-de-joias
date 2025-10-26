@@ -169,7 +169,7 @@ export const spells = {
       ]
     },
     {
-      nome: "Rajada do Caos",
+      nome: "Torrente do Caos",
       atributos: [
         "Acertar um alvo afetado por Incêndio envolve o alvo em Chamas Agonizantes causando 2–6% de dano e curando em 8–12% do poder mágico 5 vezes.",
         "Acertar um alvo diferente com o segundo projétil causa 40–60% de dano adicional.",
@@ -471,7 +471,7 @@ export const spells = {
       ]
     },
     {
-      nome: "Tentáculos de Relâmpago",
+      nome: "Filamentos Relampejantes",
       atributos: [
         "18–36% de chance de acionar Relâmpago em Cadeia ao atingir.",
         "Acertar 6 projéteis consecutivos no mesmo alvo aplica atordoamento de 0.8–1.6s.",
